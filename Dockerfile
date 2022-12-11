@@ -10,5 +10,5 @@ RUN apt-get update && apt-get install -y \
 
 VOLUME /tmp
 COPY src/zip_job.py /tmp
-CMD ["/bin/bash", "-c", "echo FIRST COMMAND"]
-//CMD ["/bin/bash", "-c lsb_release -a" ;"test -e /tmp/zip_job.py"]
+CMD echo FIRST COMMAND
+
